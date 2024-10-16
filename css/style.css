@@ -43,6 +43,7 @@ main {
     float: left;
     width: 500px;
     height: 550px;
+    background-size: cover;
 }
 
 .recipe {
@@ -52,4 +53,16 @@ main {
     width: 500px;
     height: 550px;
     background-color: #fff;
+}
+
+#cookies .image {
+    background-image: url(../img/gluten-free-sugar-cookies.jpg);
+}
+
+#pesto .image {
+    background-image: url(../img/nut-free-pesto.jpg);
+}
+
+#salad .image {
+    background-image: url(../img/watermelon-salad.jpg);
 }
