@@ -66,3 +66,12 @@ main {
 #salad .image {
     background-image: url(../img/watermelon-salad.jpg);
 }
+
+.recipe h2 {
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f16059;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
