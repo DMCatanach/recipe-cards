@@ -30,7 +30,7 @@ header img {
 /* Main section */
 main {
     width: 1000px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 /* Card styles */
@@ -73,5 +73,39 @@ main {
     font-family: 'Montserrat', sans-serif;
     color: #f16059;
     text-transform: uppercase;
-    margin: 0 auto;
+    margin-top: 0;
+}
+
+.time {
+    margin-bottom: 20px;
+    border: 1px solid #3b3b3b;
+    overflow: auto;
+}
+
+.time div {
+    float: left;
+    padding-left: 6px;
+    width: 33.3333%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.time .cook {
+    border-left: 1px solid #3b3b3b;
+    border-right: 1px solid #3b3b3b;
+}
+
+.time-details {
+    display: inline-block;
+}
+
+.time img {
+    width: 15px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.time strong {
+    font-family: 'Montserrat', sans-serif;
 }
