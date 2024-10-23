@@ -76,6 +76,7 @@ main {
     margin-top: 0;
 }
 
+/* Time info section */
 .time {
     margin-bottom: 20px;
     border: 1px solid #3b3b3b;
@@ -108,4 +109,41 @@ main {
 
 .time strong {
     font-family: 'Montserrat', sans-serif;
+}
+
+/* Instructions styling */
+.columns {
+    overflow: auto;
+}
+
+.ingredients {
+    float: left;
+    width: 205px;
+    margin-right: 15px;
+}
+
+.directions {
+    float: left;
+    width: 240px;
+}
+
+.recipe h3 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f16059;
+    text-transform: uppercase;
+    padding: 8px;
+    border-top: 1px solid #3b3b3b;
+    border-bottom: 1px solid #3b3b3b;
+}
+
+.ingredients ul {
+    padding-left: 15px;
+    line-height: 24px;
+    list-style: square;
+}
+
+.directions ol {
+    padding-left: 15px;
+    line-height: 22px;
 }
